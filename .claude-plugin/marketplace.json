@@ -4,5 +4,15 @@
     "name": "tjmustard"
   },
   "description": "Agent skills for running, writing, and chronicling tabletop RPG campaigns",
-  "plugins": []
+  "plugins": [
+    {
+      "name": "tabletop",
+      "description": "Skills for prepping, running, and chronicling tabletop RPG sessions",
+      "source": "./",
+      "strict": false,
+      "skills": [
+        "./skills/character-profiler"
+      ]
+    }
+  ]
 }

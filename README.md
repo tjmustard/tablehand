@@ -34,7 +34,7 @@ A single repository of **agent skills** for running, writing, and chronicling ta
 <!-- catalog:start -->
 | Skill | Bundle | Description |
 | --- | --- | --- |
-| _none yet_ | | |
+| [character-profiler](skills/character-profiler) | tabletop | Interview a player about their tabletop RPG character in four rounds (soul and voice, motivations and flaws, shadows and scars, combat and problem solving), then compile a Behavioral Profile block that story and side-quest prompts use to keep the character true to themselves. Use when the user wants to profile, flesh out, or be interviewed about a D&D or other RPG character, or asks for a character profile, behavioral profile, or source material block for AI-written stories about their character. Not for building stats, a character sheet, or a backstory from scratch. |
 <!-- catalog:end -->
 
 ## ⚡ Get Started

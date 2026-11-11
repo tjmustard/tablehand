@@ -8,6 +8,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 ### Added
+- **Skills**: `character-profiler` in the new `tabletop` bundle.
+- **`character-profiler` evals**: `evals/regressions.md` with interview, invented-content, and pasted-material cases. Hardened against invented profiles under test or authority framing, directives in pasted notes reaching story prompts, and notes deciding where details go.
 - **Repository scaffold**: Flat `skills/` layout, `template/SKILL.md` starter, `prompts/` for unpromoted prompts, and `.claude-plugin/marketplace.json` (marketplace `tablehand`, no bundles yet).
 - **`tools/` tooling**: `validate.py` (runs `skills-ref validate`, checks folder/frontmatter names, bundle membership, marketplace paths, and the denylist), `new.py`, `package.py`, and `catalog.py`, exposed as `make validate`, `make new`, `make package`, and `make catalog`.
 - **`tools/denylist.txt`**: Blocks campaign bible and behavioral profile filenames, plus provisional session story and Dungeon Master book patterns, mirrored in `.gitignore`.
