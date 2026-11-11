@@ -1,0 +1,8 @@
+# Filenames/globs that must never appear in this repo (personal outputs).
+# Matched with fnmatch against each file's basename and its repo-relative path.
+# Mirrored in .gitignore; `make validate` fails if any tracked-tree file matches.
+*[Cc]ampaign*[Bb]ible*
+*[Bb]ehavio*[Pp]rofile*
+# PROVISIONAL: confirm against the story and kids skills' real output filenames once imported.
+*[Ss]ession*[Ss]tory*
+*[Dd]ungeon*[Mm]aster*[Bb]ook*

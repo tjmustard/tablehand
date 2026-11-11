@@ -1,0 +1,8 @@
+{
+  "name": "rpg-skills",
+  "owner": {
+    "name": "tjmustard"
+  },
+  "description": "Agent skills for running, writing, and chronicling tabletop RPG campaigns",
+  "plugins": []
+}

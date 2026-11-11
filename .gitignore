@@ -1,0 +1,24 @@
+# Personal outputs (mirrors tools/denylist.txt)
+*[Cc]ampaign*[Bb]ible*
+*[Bb]ehavio*[Pp]rofile*
+*[Ss]ession*[Ss]tory*
+*[Dd]ungeon*[Mm]aster*[Bb]ook*
+
+# Build
+dist/
+.venv/
+__pycache__/
+*.pyc
+.ruff_cache/
+.pytest_cache/
+
+# Secrets
+.env
+.env.*
+
+# OS / editor
+.DS_Store
+Thumbs.db
+*.swp
+.idea/
+.vscode/
