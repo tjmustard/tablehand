@@ -51,8 +51,8 @@ def main() -> int:
             errors.append(f"{d.name}: invalid skill name")
 
     mp = marketplace()
-    if mp.get("name") != "rpg-skills":
-        errors.append("marketplace name must be 'rpg-skills'")
+    if mp.get("name") != "tablehand":
+        errors.append("marketplace name must be 'tablehand'")
     for plugin in mp.get("plugins", []):
         if "version" in plugin:
             errors.append(f"bundle {plugin['name']}: do not set 'version' (see AGENTS.md versioning rule)")

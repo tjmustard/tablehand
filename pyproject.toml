@@ -1,7 +1,7 @@
 [project]
-name = "rpg-skills-tools"
+name = "tablehand-tools"
 version = "0.0.0"
-description = "Repo tooling for rpg-skills (validation, catalog, packaging)"
+description = "Repo tooling for tablehand (validation, catalog, packaging)"
 requires-python = ">=3.11"
 dependencies = ["PyYAML>=6.0"]
 

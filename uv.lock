@@ -79,25 +79,6 @@ wheels = [
 ]
 
 [[package]]
-name = "rpg-skills-tools"
-version = "0.0.0"
-source = { virtual = "." }
-dependencies = [
-    { name = "pyyaml" },
-]
-
-[package.dev-dependencies]
-dev = [
-    { name = "skills-ref" },
-]
-
-[package.metadata]
-requires-dist = [{ name = "pyyaml", specifier = ">=6.0" }]
-
-[package.metadata.requires-dev]
-dev = [{ name = "skills-ref", git = "https://github.com/agentskills/agentskills?subdirectory=skills-ref&rev=69ef37e9424c0a7ea9dd2293b559e43ec8176379" }]
-
-[[package]]
 name = "skills-ref"
 version = "0.1.0"
 source = { git = "https://github.com/agentskills/agentskills?subdirectory=skills-ref&rev=69ef37e9424c0a7ea9dd2293b559e43ec8176379#69ef37e9424c0a7ea9dd2293b559e43ec8176379" }
@@ -117,6 +98,25 @@ sdist = { url = "https://files.pythonhosted.org/packages/b3/08/efd28d49162ce89c2
 wheels = [
     { url = "https://files.pythonhosted.org/packages/96/7c/a81ef5ef10978dd073a854e0fa93b5d8021d0594b639cc8f6453c3c78a1d/strictyaml-1.7.3-py3-none-any.whl", hash = "sha256:fb5c8a4edb43bebb765959e420f9b3978d7f1af88c80606c03fb420888f5d1c7", size = 123917, upload-time = "2023-03-10T12:50:17.242Z" },
 ]
+
+[[package]]
+name = "tablehand-tools"
+version = "0.0.0"
+source = { virtual = "." }
+dependencies = [
+    { name = "pyyaml" },
+]
+
+[package.dev-dependencies]
+dev = [
+    { name = "skills-ref" },
+]
+
+[package.metadata]
+requires-dist = [{ name = "pyyaml", specifier = ">=6.0" }]
+
+[package.metadata.requires-dev]
+dev = [{ name = "skills-ref", git = "https://github.com/agentskills/agentskills?subdirectory=skills-ref&rev=69ef37e9424c0a7ea9dd2293b559e43ec8176379" }]
 
 [[package]]
 name = "tzdata"

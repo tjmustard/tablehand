@@ -1,4 +1,4 @@
-"""Shared helpers for `rpg-skills` tooling."""
+"""Shared helpers for `tablehand` tooling."""
 from __future__ import annotations
 
 import json

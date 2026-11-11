@@ -1,5 +1,5 @@
 <div align="center">
-    <h1>rpg-skills</h1>
+    <h1>Tablehand</h1>
     <h3><em>Agent skills for running, writing, and chronicling tabletop RPG campaigns.</em></h3>
 </div>
 
@@ -8,15 +8,15 @@
 </p>
 
 <p align="center">
-    <a href="https://github.com/tjmustard/rpg-skills/stargazers"><img src="https://img.shields.io/github/stars/tjmustard/rpg-skills?style=social" alt="GitHub stars"/></a>
-    <a href="https://github.com/tjmustard/rpg-skills/blob/main/LICENSE"><img src="https://img.shields.io/github/license/tjmustard/rpg-skills" alt="License"/></a>
+    <a href="https://github.com/tjmustard/tablehand/stargazers"><img src="https://img.shields.io/github/stars/tjmustard/tablehand?style=social" alt="GitHub stars"/></a>
+    <a href="https://github.com/tjmustard/tablehand/blob/main/LICENSE"><img src="https://img.shields.io/github/license/tjmustard/tablehand" alt="License"/></a>
 </p>
 
 ---
 
 ## Table of Contents
 
-- [🤔 What is rpg-skills?](#-what-is-rpg-skills)
+- [🤔 What is Tablehand?](#-what-is-tablehand)
 - [📚 Skills](#-skills)
 - [⚡ Get Started](#-get-started)
 - [📂 Directory Structure](#-directory-structure)
@@ -25,7 +25,7 @@
 - [🤝 Support](#-support)
 - [📄 License](#-license)
 
-## 🤔 What is rpg-skills?
+## 🤔 What is Tablehand?
 
 A single repository of **agent skills** for running, writing, and chronicling tabletop RPG campaigns. Every skill conforms to the [Agent Skills specification](https://agentskills.io/specification) and is validated in CI. Skills are grouped into **bundles** (Claude Code plugins) listed in `.claude-plugin/marketplace.json`, so each skill exists once and is installable everywhere.
 
@@ -43,21 +43,21 @@ A single repository of **agent skills** for running, writing, and chronicling ta
 
 1.  Add the marketplace:
     ```
-    /plugin marketplace add tjmustard/rpg-skills
+    /plugin marketplace add tjmustard/tablehand
     ```
 2.  Install a bundle:
     ```
-    /plugin install tabletop@rpg-skills
+    /plugin install tabletop@tablehand
     ```
 3.  Pick up later changes:
     ```
-    /plugin marketplace update rpg-skills
+    /plugin marketplace update tablehand
     ```
 
 ### Other Skills-Compatible Clients
 
 ```bash
-npx skills add tjmustard/rpg-skills
+npx skills add tjmustard/tablehand
 ```
 
 ### claude.ai
@@ -72,8 +72,8 @@ make package name=<skill-name>
 ## 📂 Directory Structure
 
 ```
-rpg-skills/
-├── .claude-plugin/marketplace.json   # marketplace "rpg-skills"; bundles reference skills by path
+tablehand/
+├── .claude-plugin/marketplace.json   # marketplace "tablehand"; bundles reference skills by path
 ├── skills/                           # flat; one folder per skill; folder name == frontmatter name
 │   └── <skill-name>/
 │       ├── SKILL.md

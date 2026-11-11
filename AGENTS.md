@@ -15,7 +15,7 @@ Conventions for any agent or human working in this repo.
 - Skill name: lowercase `a-z`, `0-9`, single hyphens, no leading or trailing hyphen, max 64 characters.
 - Folder name equals the frontmatter `name`.
 - `description` states what the skill does and when to use it, max 1024 characters.
-- Bundle names: short, lowercase, hyphenated; they are the `<bundle>` in `/plugin install <bundle>@rpg-skills`.
+- Bundle names: short, lowercase, hyphenated; they are the `<bundle>` in `/plugin install <bundle>@tablehand`.
 
 ## Personal data and third-party material
 
@@ -26,7 +26,7 @@ Conventions for any agent or human working in this repo.
 
 ## Versioning rule
 
-Do not set `version` in `.claude-plugin/marketplace.json` entries or in any `plugin.json`. Claude Code caches plugins by version; with an explicit version, users receive nothing until the string changes. With no version, every commit is a new version, so `/plugin marketplace update rpg-skills` always delivers changes. `make validate` fails if a bundle sets `version`. Do not add a `plugin.json` (bundles use `strict: false`, which conflicts with component fields declared alongside one).
+Do not set `version` in `.claude-plugin/marketplace.json` entries or in any `plugin.json`. Claude Code caches plugins by version; with an explicit version, users receive nothing until the string changes. With no version, every commit is a new version, so `/plugin marketplace update tablehand` always delivers changes. `make validate` fails if a bundle sets `version`. Do not add a `plugin.json` (bundles use `strict: false`, which conflicts with component fields declared alongside one).
 
 ## Tooling
 
