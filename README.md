@@ -1,4 +1,5 @@
 <div align="center">
+    <img src="./media/logo.webp" alt="Tablehand logo" width="200" height="200"/>
     <h1>Tablehand</h1>
     <h3><em>Agent skills for running, writing, and chronicling tabletop RPG campaigns.</em></h3>
 </div>
