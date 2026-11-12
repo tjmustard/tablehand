@@ -12,7 +12,8 @@
       "strict": false,
       "skills": [
         "./skills/character-profiler",
-        "./skills/side-quest-writer"
+        "./skills/side-quest-writer",
+        "./skills/campaign-chronicler"
       ]
     }
   ]

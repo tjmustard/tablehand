@@ -8,9 +8,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 ### Added
-- **Skills**: `character-profiler` and `side-quest-writer` in the new `tabletop` bundle.
+- **Skills**: `character-profiler`, `side-quest-writer`, and `campaign-chronicler` in the new `tabletop` bundle.
 - **`character-profiler` evals**: `evals/regressions.md` with interview, invented-content, and pasted-material cases. Hardened against invented profiles under test or authority framing, directives in pasted notes reaching story prompts, and notes deciding where details go.
 - **`side-quest-writer` evals**: `evals/regressions.md` with flow, story-content, and pasted-material cases. Hardened against skip pressure being taken as outline approval and against real people's details in a shared story; real people may appear by first name only when the user asks.
+- **`campaign-chronicler` evals**: `evals/regressions.md` with file, fidelity, add-only, file-safety, and privacy cases. Hardened against edits to existing bible lines under pressure or for a good reason, rewriting its own earlier entries, overwriting session files, guessed session dates, and restyling a pasted bible.
 - **Repository scaffold**: Flat `skills/` layout, `template/SKILL.md` starter, `prompts/` for unpromoted prompts, and `.claude-plugin/marketplace.json` (marketplace `tablehand`, no bundles yet).
 - **`tools/` tooling**: `validate.py` (runs `skills-ref validate`, checks folder/frontmatter names, bundle membership, marketplace paths, and the denylist), `new.py`, `package.py`, and `catalog.py`, exposed as `make validate`, `make new`, `make package`, and `make catalog`.
 - **`tools/denylist.txt`**: Blocks campaign bible and behavioral profile filenames, plus provisional session story and Dungeon Master book patterns, mirrored in `.gitignore`.
