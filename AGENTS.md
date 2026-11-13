@@ -21,7 +21,7 @@ Conventions for any agent or human working in this repo.
 
 - This repo distributes skills only. Outputs a skill generates (campaign bibles, behavioral profiles, session stories, printable adventure books) never go here. `tools/denylist.txt` and `.gitignore` enforce this; add new patterns to both.
 - No real players' or children's names and no session transcripts, including as examples or test content. Use made-up characters, places, and sessions.
-- No published adventure or module text, branded templates, or other third-party game content. Rules content is limited to the 5e SRD 5.1 (CC-BY-4.0); no non-SRD stat blocks, spells, or items.
+- No published adventure or module text, branded templates, or other third-party game content. Rules content is limited to the 5e SRD 5.1 and SRD 5.2.1 (both CC-BY-4.0); no non-SRD stat blocks, spells, items, or tables. Any file that uses SRD 5.2.1 material carries the attribution statement the SRD requires, and the README repeats it.
 - No credentials or `.env` files.
 
 ## Versioning rule

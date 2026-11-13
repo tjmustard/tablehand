@@ -13,7 +13,8 @@
       "skills": [
         "./skills/character-profiler",
         "./skills/side-quest-writer",
-        "./skills/campaign-chronicler"
+        "./skills/campaign-chronicler",
+        "./skills/session-prep"
       ]
     }
   ]
